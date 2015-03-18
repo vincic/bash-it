@@ -61,7 +61,7 @@ if [ -z "$EDITOR" ]; then
         alias gd='git diff | vim -R -'
         ;;
       darwin*)
-        alias gd='git diff | mate'
+        alias gd='git diff | vim -R -'
         ;;
       *)
         alias gd='git diff'
